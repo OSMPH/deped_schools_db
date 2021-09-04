@@ -1,0 +1,127 @@
+{
+	"data_format": 1,
+	"project": {
+		"name": "OSMaPaaralan",
+		"description": "Mapping Philippine public schools (paaralan) in OpenStreetMap",
+		"project_url": "https://maproulette.org/browse/challenges/9413",
+		"doc_url": "https://hackmd.io/@osmph?tags=%5B%22OSMaPaaralan%22%5D",
+		"contact_name": "Erwin Olario for MapAmore",
+		"contact_email": "govvin@gmail.com"
+	},
+	"tags": [{
+			"key": "amenity",
+			"description": "The primary tag for all items mapped in the project",
+			"value": "school"
+		},
+		{
+			"key": "ref",
+			"description": "The official DepEd reference id for the school"
+		},
+		{
+			"key": "old_ref",
+			"description": "The historical DepEd reference id for the school. (e.g. after a school is merged or upgraded)"
+		},
+		{
+			"key": "name",
+			"description": "The official name of the school"
+		},
+		{
+			"key": "old_name",
+			"description": "The historical name of the school"
+		},
+		{
+			"key": "name:abbr",
+			"description": "The abbreviated name of the school"
+		},
+		{
+			"key": "alt_name",
+			"description": "The alternative name(s) of the school"
+		},
+		{
+			"key": "isced:level",
+			"description": "identify the level of education offered by a school based on the ISCED (International Standard Classification of Education) scale"
+		},
+		{
+			"key": "operator",
+			"description": "The local school division office of the Department of Educatoin with supervising authority over the school"
+		},
+		{
+			"key": "operator:type",
+			"description": "The type of operator=* for a feature, and set to 'public' for all project items. ",
+			"value": "public"
+		},
+		{
+			"key": "population:pupils:2012",
+			"description": "School population data for CY 2012"
+		},
+		{
+			"key": "population:pupils:2015",
+			"description": "School population data for CY 2015"
+		},
+		{
+			"key": "start_date",
+			"description": "The date the school started operating"
+		},
+		{
+			"key": "source",
+			"description": "The data source",
+			"value": "Department of Education, Philippines"
+		},
+		{
+			"key": "addr:place",
+			"description": "The name of the closest territorial zone (neighbourhood, hamlet, village, etc.) when addr:street information is unavailable."
+		},
+		{
+			"key": "addr:province",
+			"description": "The province address of the school."
+		},
+		{
+			"key": "addr:city",
+			"description": "The city address of the school."
+		},
+		{
+			"key": "addr:town",
+			"description": "The town address of the school."
+		},
+		{
+			"key": "addr:quarter",
+			"description": "The quarter address of the school."
+		},
+		{
+			"key": "addr:suburb",
+			"description": "The village address of the school."
+		},
+		{
+			"key": "addr:village",
+			"description": "The village address of the school."
+		},
+		{
+			"key": "addr:hamlet",
+			"description": "The hamlet address of the school."
+		},
+		{
+			"key": "addr:neighbourhood",
+			"description": "The neighbourhood address of the school."
+		},
+		{
+			"key": "addr:street",
+			"description": "The street name address of the school."
+		},
+		{
+			"key": "addr:street:corner",
+			"description": "The secondary street address of the school (i.e. school is located on a corner)"
+		},
+		{
+			"key": "addr:housenumber",
+			"description": "The housenumber address of the school."
+		},
+		{
+			"key": "education_program",
+			"description": "The curriculum program implemented by a school. Unused for schools implementing the general curriculum."
+		},
+		{
+			"key": "specialized_education",
+			"description": "The specific, special curriculum program implemented by a school (e.g. special needs, culture and arts, etc.)"
+		}
+	]
+}
